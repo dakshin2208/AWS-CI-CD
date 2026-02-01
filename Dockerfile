@@ -1,4 +1,5 @@
-FROM eclipse-temurin:21-jre
+FROM public.ecr.aws/docker/library/openjdk:21-jdk-slim
+
 
 WORKDIR /app
 
