@@ -39,5 +39,9 @@ public class TaskController {
                 ? "Task deleted"
                 : "Task not found";
     }
+    @GetMapping("/dakshin")
+    public String Success(){
+        return "Works Successfully! 💙";
+    }
 }
 
